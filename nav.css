@@ -1,0 +1,152 @@
+/* home page navbar style  */
+body{
+   margin: 0px;
+   padding:0;
+   position: relative;  
+}
+.main-navbar{
+  width: 100%;
+  border-bottom: 2px solid #e9ecece6;
+  position: relative;
+  /* overflow-x: scroll; */
+
+   /* background-color: azure;  */
+}
+.main-navbar::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+.nav-container{
+  width: 1400px;
+  margin: auto;
+  /* background-color: aqua;   */
+}
+.nav-list {
+  display: inline-block;
+}
+.nav-link{
+  font-size: 18px;
+  color: #626b6ce6;
+  padding: 10px 15px;
+  text-decoration:none;
+  display: inline-block;
+  position: relative;
+}
+ 
+.nav-link:after {
+  content: '';
+  position: absolute;
+  width: 90%;
+  transform: scaleX(0);
+  border-radius: 15%;
+  height: 3px;
+  bottom: 0;
+  left: 8px;
+  background-color: #ee0404e6;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+ 
+.nav-link-content {
+  display: none;
+  position: absolute;
+  min-width: 1000px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.nav-link-content a {
+  color: #626b6ce6;
+  padding: 12px 15px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.nav-list:hover .nav-link-content {
+  display: table;
+}
+
+
+ 
+  /* recode */
+
+  .main-nv{
+    position: absolute; 
+    display: none;
+    background-color:#fff;
+    margin-top: -1.6px;
+    border-radius: 2px; 
+    border: 2px solid #e9ecece6; 
+    -moz-box-shadow: 0 0 10px #aaa; 
+    -webkit-box-shadow: 0 0 10px #aaa; 
+    box-shadow: 0 0 20px rgb(143, 142, 142); 
+    -webkit-transition: -webkit-box-shadow 8s; 
+    -moz-transition: -moz-box-shadow 6s; 
+    -o-transition: -o-box-shadow 4s; 
+   transition: box-shadow 4s ease; 
+
+    }
+  .lh-1{
+    line-height: 1.5;
+  }
+  .pb-17{
+    padding:10px;
+    font-size: 17px;
+    color: #000000;
+    font-weight: 600;
+  }
+.px-17{
+  padding: 0px 10px;
+  font-size: 17px;
+  color: #535a5cf8;
+  font-weight: 500;
+}
+.p-3{
+  padding: 5px 30px;
+  margin-left: 60px;
+  
+}
+
+.fl-2{
+  margin-left: 247px;
+  width: 630px;
+  height: 450px;
+}
+.fl-3{
+  
+   margin-left: 440px; 
+  width: 630px;
+  height: 450px;
+}
+.fl-4{
+  
+  margin-left: 617px; 
+ width: 630px;
+ height: 450px;
+}.fl-5{
+  
+  margin-left: 780px; 
+ width: 630px;
+ height: 450px;
+}
+.fl-6{
+  margin-left: 700px;
+ width: 630px;
+ height: 450px;
+}
+.fl-7{
+  margin-left: 840px;
+ width: 630px;
+ height: 450px;
+}
+ 
+  
+ 
+  
+
+  
+ 
